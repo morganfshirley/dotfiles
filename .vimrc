@@ -1,3 +1,6 @@
+" Pathogen plugin manager
+execute pathogen#infect()
+
 " History
 set history=700
 
@@ -30,3 +33,4 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set ai
+inoremap <S-Tab> <C-d>
